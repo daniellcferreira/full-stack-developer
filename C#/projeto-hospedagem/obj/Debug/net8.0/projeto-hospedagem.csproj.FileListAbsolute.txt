@@ -1,0 +1,15 @@
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\bin\Debug\net8.0\projeto-hospedagem.exe
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\bin\Debug\net8.0\projeto-hospedagem.deps.json
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\bin\Debug\net8.0\projeto-hospedagem.runtimeconfig.json
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\bin\Debug\net8.0\projeto-hospedagem.dll
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\bin\Debug\net8.0\projeto-hospedagem.pdb
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.sourcelink.json
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.dll
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\refint\projeto-hospedagem.dll
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.pdb
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\projeto-hospedagem.genruntimeconfig.cache
+C:\Users\Daniel\Documents\Dio\full-stack-developer\C#\projeto-hospedagem\obj\Debug\net8.0\ref\projeto-hospedagem.dll

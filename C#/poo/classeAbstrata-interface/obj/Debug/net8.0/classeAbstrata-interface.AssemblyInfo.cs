@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("classeAbstrata-interface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+402b847242c357b9e75f79161616e3a59246063b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99ca08e48fabfa2b0e1f3606a60576d1486b772d")]
 [assembly: System.Reflection.AssemblyProductAttribute("classeAbstrata-interface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("classeAbstrata-interface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,18 +9,19 @@ using entity_croud.Context;
 namespace entity_croud.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route(V)]
     public class ContatoController : ControllerBase
     {
+        private const string V = "[Controller]";
         private readonly AgendaContext _context;
 
-        public ContatoController(AgentaContext context)
+        public ContatoController(AgendaContext context)
         {
             _context = context;
         }
 
         [HttpPost]
-        public IActionResult Create(Contado contado)
+        public IActionResult Create(Contato contato)
         {
             _context.Add(contato);
             _context.SaveChanges();
@@ -39,6 +40,13 @@ namespace entity_croud.Controllers
             return Ok(contato);
         }
 
+        [HttpGet("ObterNome")]
+        public IActionResult ObterNome(string nome)
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
+            return Ok(contatos);
+        }
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Contato contato)
         {
@@ -54,7 +62,20 @@ namespace entity_croud.Controllers
             _context.Contatos.Update(contatoBanco);
             _context.SaveChanges();
 
-            return ok(contatoBanco);
+            return Ok(contatoBanco);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            var contatoBanco = _context.Contatos.Find(id);
+
+            if (contatoBanco == null)
+                return NotFound();
+
+            _context.Contatos.Remove(contatoBanco);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }

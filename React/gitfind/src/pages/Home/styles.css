@@ -28,6 +28,7 @@ input {
   background: transparent;
   font-size: 18px;
   padding: 10px;
+  color: #ffffff;
 }
 
 button {
@@ -38,4 +39,43 @@ button {
   background: #203338;
   font-size: 18px;
   padding: 10px;
+}
+
+.perfil {
+  display: flex;
+  margin: 40px 0;
+}
+
+.profile {
+  border-radius: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #e5e5e5;
+  margin-right: 32px;
+}
+
+.perfil h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+
+.perfil span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.perfil p {
+  color: #999999;
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
+.repositorio {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 12px 0;
+  text-align: center;
 }

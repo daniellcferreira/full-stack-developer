@@ -11,22 +11,30 @@ import {
   Wrapper,
 } from "./styles";
 
-const Header = () => {
+const Header = ({ autenticado }) => {
   return (
     <Wrapper>
       <Container>
         <Row>
           <img src="#" alt="Logo da dio"></img>
-          <BuscarInputContainer>
-            <Input placeholder="Buscar..." />
-          </BuscarInputContainer>
-          <Menu>Live Code</Menu>
-          <Menu>Global</Menu>
+          {autenticado ? (
+            <>
+              <BuscarInputContainer>
+                <Input placeholder="Buscar..." />
+              </BuscarInputContainer>
+              <Menu>Live Code</Menu>
+              <Menu>Global</Menu>
+            </>
+          ) : null}
         </Row>
         <Row>
-          <MenuRigth href="#">Home</MenuRigth>
-          <Button title="Entrar" />
-          <Button title="Cadastrar" />
+          {autenticado ? (
+            <>
+              <MenuRigth href="#">Home</MenuRigth>
+              <Button title="Entrar" />
+              <Button title="Cadastrar" />
+            </>
+          ) : null}
         </Row>
       </Container>
     </Wrapper>
